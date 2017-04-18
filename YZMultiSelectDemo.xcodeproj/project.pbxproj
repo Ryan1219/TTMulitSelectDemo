@@ -14,6 +14,9 @@
 		427FFAD71EA5E6C800D12696 /* YZMultiSelectDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 427FFAD51EA5E6C800D12696 /* YZMultiSelectDemo.xcdatamodeld */; };
 		427FFAD91EA5E6C800D12696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427FFAD81EA5E6C800D12696 /* Assets.xcassets */; };
 		427FFADC1EA5E6C800D12696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427FFADA1EA5E6C800D12696 /* LaunchScreen.storyboard */; };
+		427FFAE41EA5E6ED00D12696 /* shop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 427FFAE31EA5E6ED00D12696 /* shop.plist */; };
+		427FFAE71EA5E7C800D12696 /* YZShopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FFAE61EA5E7C800D12696 /* YZShopTableViewCell.m */; };
+		427FFAEA1EA5E7E000D12696 /* YZShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FFAE91EA5E7E000D12696 /* YZShopModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,12 @@
 		427FFAD81EA5E6C800D12696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		427FFADB1EA5E6C800D12696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		427FFADD1EA5E6C800D12696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427FFAE31EA5E6ED00D12696 /* shop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shop.plist; sourceTree = "<group>"; };
+		427FFAE51EA5E7C800D12696 /* YZShopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZShopTableViewCell.h; sourceTree = "<group>"; };
+		427FFAE61EA5E7C800D12696 /* YZShopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZShopTableViewCell.m; sourceTree = "<group>"; };
+		427FFAE81EA5E7E000D12696 /* YZShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZShopModel.h; sourceTree = "<group>"; };
+		427FFAE91EA5E7E000D12696 /* YZShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZShopModel.m; sourceTree = "<group>"; };
+		427FFAEB1EA5EC0F00D12696 /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +73,16 @@
 				427FFACD1EA5E6C800D12696 /* AppDelegate.m */,
 				427FFACF1EA5E6C800D12696 /* ViewController.h */,
 				427FFAD01EA5E6C800D12696 /* ViewController.m */,
+				427FFAE51EA5E7C800D12696 /* YZShopTableViewCell.h */,
+				427FFAE61EA5E7C800D12696 /* YZShopTableViewCell.m */,
+				427FFAE81EA5E7E000D12696 /* YZShopModel.h */,
+				427FFAE91EA5E7E000D12696 /* YZShopModel.m */,
+				427FFAEB1EA5EC0F00D12696 /* prefix.pch */,
 				427FFAD21EA5E6C800D12696 /* Main.storyboard */,
 				427FFAD81EA5E6C800D12696 /* Assets.xcassets */,
 				427FFADA1EA5E6C800D12696 /* LaunchScreen.storyboard */,
 				427FFADD1EA5E6C800D12696 /* Info.plist */,
+				427FFAE31EA5E6ED00D12696 /* shop.plist */,
 				427FFAD51EA5E6C800D12696 /* YZMultiSelectDemo.xcdatamodeld */,
 				427FFAC91EA5E6C800D12696 /* Supporting Files */,
 			);
@@ -143,6 +158,7 @@
 			files = (
 				427FFADC1EA5E6C800D12696 /* LaunchScreen.storyboard in Resources */,
 				427FFAD91EA5E6C800D12696 /* Assets.xcassets in Resources */,
+				427FFAE41EA5E6ED00D12696 /* shop.plist in Resources */,
 				427FFAD41EA5E6C800D12696 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,9 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				427FFAEA1EA5E7E000D12696 /* YZShopModel.m in Sources */,
 				427FFAD11EA5E6C800D12696 /* ViewController.m in Sources */,
 				427FFAD71EA5E6C800D12696 /* YZMultiSelectDemo.xcdatamodeld in Sources */,
 				427FFACE1EA5E6C800D12696 /* AppDelegate.m in Sources */,
+				427FFAE71EA5E7C800D12696 /* YZShopTableViewCell.m in Sources */,
 				427FFACB1EA5E6C800D12696 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +296,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M6K278EW5S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YZMultiSelectDemo/prefix.pch;
 				INFOPLIST_FILE = YZMultiSelectDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.YZMultiSelectDemo;
@@ -290,6 +310,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M6K278EW5S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YZMultiSelectDemo/prefix.pch;
 				INFOPLIST_FILE = YZMultiSelectDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.YZMultiSelectDemo;
